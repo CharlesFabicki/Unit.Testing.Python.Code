@@ -1,0 +1,49 @@
+# Python-specific ignore patterns
+__pycache__/
+*.pyc
+
+# Environment-specific ignore patterns
+venv/
+env/
+*.env
+
+# Jupyter Notebook-specific ignore patterns
+.ipynb_checkpoints/
+
+# Data and output files
+*.csv
+*.json
+*.png
+
+# IDE/Editor-specific ignore patterns
+.idea/
+.vscode/
+
+# Dependency directories (if you're using virtual environments)
+# Replace 'env' with the name of your virtual environment directory if necessary
+/env/
+
+# Ignore any other generated or temporary files
+*.log
+*.swp
+*.swo
+*.swn
+*.cache
+*.gitignore
+
+# Ignore compiled Python files
+*.pyo
+*.pyd
+*.pyw
+
+# Ignore your actual configuration files, if applicable
+config.py
+
+# Ignore system-specific or user-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore local development configurations
+*.sqlite3
+*.sqlite
+*.db
