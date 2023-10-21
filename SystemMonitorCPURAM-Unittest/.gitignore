@@ -1,0 +1,30 @@
+# Byte-compiled / optimized Python files
+__pycache__/
+*.pyc
+*.pyo
+__pycache__/*
+*.pyc
+*.pyo
+
+# System and IDE files
+.idea/
+.vscode/
+
+# Dependency directories
+venv/
+env/
+lib/
+build/
+dist/
+node_modules/
+
+# Logs and temporary files
+*.log
+*.log.*
+*.tmp
+*.swp
+*~
+
+# Project-specific files or directories (modify as needed)
+config.ini
+data/
